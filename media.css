@@ -1,15 +1,8 @@
-@media screen and (max-width:580px){
+@media (max-width:580px)and (min-width: 400px){
 
-    *{
-        margin: 0%;
-    }
-
-    /* body{
-        display: flex;
-        flex-direction: column;
-      } */
       header{
         height: 70vh;
+        width: 100%;
       }
 
     .land-img{
@@ -39,7 +32,7 @@
     }
 
     .landing-page{
-      margin-top: 30%;
+      margin-top: 25%;
     }
 
     .ld-text{
@@ -68,28 +61,47 @@
       }
 
       .cont{
-        height: 230vh;
+        height: 293vh;
+        width: 100%;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
       }
 
+      .text{
+        font-size: 20px;
+      }
+
      .cards{
-       width: 0;
-       height: 0;
+       /* width: 0;
+       height: 0; */
        display: flex;
        flex-direction: column;
        align-items: center;
        justify-content: center;
 
      }
+
+     .card-cont{
+       margin-top: 5%;
+       height: 86vh;
+     }
       
+      
+
+      .fp-title{
+        font-size: 20px;
       }
 
       .f-proj{
-        height: 350vh;
-        background-color: red;
+        height: 330vh;
+        width: 100%;
+        background-color: #F9F9F9;
+      }
+
+      .proj-cont{
+        margin-top: 5%;
       }
 
       .proj1{
@@ -139,6 +151,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 6%;
   } 
 
   .f-proj-img{
@@ -155,7 +168,8 @@
 
   .fourth{
     height: 280vh;
-    background-color: yellow;
+    width: 100%;
+    background-color: white;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -167,6 +181,10 @@
     align-items: center;
   }
 
+  .w-p-text{
+    font-size: 20px;
+  }
+
   .person1{
     width: 70%;
     height: 65vh;
@@ -175,7 +193,8 @@
 
   .fifth{
     height: 370vh;
-    background-color: tomato;
+    width: 100%;
+    background-color: #F9F9F9;
   }
 
   .service-title{
@@ -195,7 +214,8 @@
 
  .our-company-section{
    height: 310vh;
-   background-color: thistle;
+   width: 100%;
+   background-color: white;
  }
 
  .ocs{
@@ -204,7 +224,7 @@
  }
 
  .ocs-one{
-   border: 1px solid  #FFA700;
+   /* border: 1px solid  #FFA700; */
    flex-direction: column;
    justify-content: center;
    align-items: center;
@@ -237,10 +257,15 @@
 
  .blog-page{
    height: 300vh;
-   background-color: firebrick;
+   width: 100%;
+   background-color: #F9F9F9;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+ }
+
+ .blog-page-title{
+   font-size: 20px;
  }
 
  .posts-container{
@@ -249,18 +274,31 @@
   align-items: center;
  }
 
- .contact{
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+ .report{
+   margin-top: -27%;
  }
 
-  
-  
-  
-     
+ .contact-page{
+  height: 80vh;
+ }
 
+ .contact{
+  display: flex;
+  flex-wrap: wrap;
+  width: 99%;
+  /* justify-content: space-between; */
+  /* flex-direction: column; */
+  justify-content: center;
+  /* align-items: center; */
+ }
 
+ .tl{
+   font-size: 16px;
+ }
 
+ .pa{
+   font-size: 14px;
+ 
+  }
       
 }
