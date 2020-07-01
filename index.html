@@ -5,80 +5,91 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Font Awesome icons (free version)-->
-    <script src="./assets/font awsome/js/all.js"></script>
+    <!-- <script src="./assets/font awsome/js/all.js"></script> -->
     <!-- Google fonts -->
     <!-- Bootstrap -->
-    <link href="./assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- <link href="./assets/bootstrap/css/bootstrap.min.css" rel="stylesheet"> -->
     <!-- Core theme CSS-->
     <link href="css/styles.css" rel="stylesheet" />
+    <link rel="stylesheet" href="media.css">
     <title> Construction </title>
 </head>
 
-<body class="wrapper__page">
+<body>
     <!-- Navbar -->
-
-    <div class="ld-img">
-        <img src="images/Rectangle 70.svg" alt="" class="image1">
-    </div>
+    <div class="pack">
+  <header>
+    <div class="land-img">
+        <img src="images/Rectangle 49.png" alt="" class="image1">
+        </div>
+    </header>
 
     <div class="nav-bar">
-    <div class="nav-logo">NAVBAR</div>
+    <div class="nav-logo"><img src="images/Group 178.png" alt="" class="logo"></div>
     <div class="nav-links" >
-        <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-        <a class="nav-item nav-link" href="#">Projects</a>
-        <a class="nav-item nav-link" href="#">Services</a>
-        <a class="nav-item nav-link" href="#">Page</a>
-        <a class="nav-item nav-link" href="#">Blog</a>
-        <a class="nav-item nav-link" href="#">Contact Us</a>
+        <a class="links" href="#">Home</a>
+        <a class="links" href="#">Projects</a>
+        <a class="links" href="#">Services</a>
+        <a class="links" href="#">Page</a>
+        <a class="links" href="#">Blog</a>
+        <a class="links" href="#">Contact Us</a>
        
       </div>  
     </div>
+  
 
     <div class="landing-page">
         <div class="ld-text">
-            <h4>CREATIVE BUILDERS</h4>
-            <h1>WE ARE CREATIVE AND INNOVATIVE</h1>
+            <h4 class="tt">CREATIVE BUILDERS</h4>
+            <h1 class="theme">WE ARE CREATIVE AND INNOVATIVE</h1>
             <button class="button-ld">HIRE US</button>
         </div>
     </div>
    
-  </div>
+
 
   <!-- About Us section -->
 
-  <div class="container">
+  <div class="cont">
       <div class="text">About US</div>
       <div class="cards">
-        <div class="card" style="width: 20rem;">
-            <img src="images/Rectangle 71-1.png" class="card-img-top" alt="...">
+        <div class="card-cont">
+          <div class="card-image">
+            <img src="images/Rectangle 71-1.png" class="card-img" alt="...">
+          </div>
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
+              <h2 class="card-title">Card title</h2>
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <button style="background-color: #FFA700" class="card-btn">Go somewhere</button>
             </div>
           </div>
+         
+          <div class="card-cont">
+            <div class="card-image">
+              <img src="images/Rectangle 73.png" class="card-img" alt="...">
+            </div>
+              <div class="card-body">
+                <h2 class="card-title">Card title</h2>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <button style="background-color: #FFA700" class="card-btn">Go somewhere</button>
+              </div>
+            </div>
+        
 
-          <div class="card" style="width: 20rem;">
-            <img src="images/Rectangle 73.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-          </div>
-
-          <div class="card" style="width: 20rem;">
-            <img src="images/Rectangle 72-1.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-          </div>
-      </div>
-         <div class="my-btn">
-            <button class="sec-btn">READ MORE</button>
-         </div> 
+            <div class="card-cont">
+              <div class="card-image">
+                <img src="images/Rectangle 72-1.png" class="card-img" alt="...">
+              </div>
+                <div class="card-body">
+                  <h2 class="card-title">Card title</h2>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <button style="background-color: #FFA700" class="card-btn">Go somewhere</button>
+                </div>
+              </div>
+            </div> 
+           <div class="my-btn">
+              <button class="sec-btn">READ MORE</button>
+           </div> 
      
   </div>
 
@@ -125,7 +136,7 @@
 </div>
 
 <section>
-  <div class="container2">
+  <div class="cont2">
     <img src="images/Group 152.png" alt="" class="image2">
   </div>
 </section>
@@ -287,32 +298,38 @@
         BLOG POST
       </div>
       <div class="posts-container">
-       <div class="card" style="width: 22rem; margin: 2.6%;border: 3px solid #FFA700">
-  <img src="images/Rectangle 73-1.png" class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" style="color: blue; margin-top: 40px;">READ MORE</a>
-  </div>
-</div>
+        <div class="card-cont">
+          <div class="card-image">
+            <img src="images/Rectangle 73-1.png" class="card-img" alt="...">
+          </div>
+            <div class="card-body">
+              <h2 class="card-title">Card title</h2>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" style="color: blue; margin-top: 40px;">READ MORE</a>
+            </div>
+          </div>
 
-<div class="card" style="width: 22rem; margin: 2.6%; border: 3px solid #FFA700">
-  <img src="images/Rectangle 71.png" class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" style="color: blue; margin-top: 40px;">READ MORE</a>
-  </div>
-</div>
+          <div class="card-cont">
+            <div class="card-image">
+              <img src="images/Rectangle 71.png" class="card-img" alt="...">
+            </div>
+              <div class="card-body">
+                <h2 class="card-title">Card title</h2>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" style="color: blue; margin-top: 40px;">READ MORE</a>
+              </div>
+            </div>
 
-<div class="card" style="width: 22rem; margin: 2.6%; border: 3px solid #FFA700 ;">
-  <img src="images/Rectangle 71-1.png" class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" style="color: blue; margin-top: 40px;">READ MORE</a>
-  </div>
-</div>
+            <div class="card-cont">
+              <div class="card-image">
+                <img src="images/Rectangle 71-1.png" class="card-img" alt="...">
+              </div>
+                <div class="card-body">
+                  <h2 class="card-title">Card title</h2>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" style="color: blue; margin-top: 40px; text-decoration: none; float: left;">READ MORE</a>
+                </div>
+              </div>
       </div>
     </div>
   </section>
@@ -350,7 +367,7 @@
 
 <section>
   <div class="contact-page">
-    <h1>Contact Us</h1>
+    <b></b><h1 style="font-weight: 600;">Contact Us</h1>
     <h4 style="margin-top: 15px;">Do not hesitate to contact us</h4>
 
     <div class="contact">
@@ -359,8 +376,8 @@
           <img src="" alt="">
         </div>
         <div>
-        <h4>Our Address</h4>
-        <p>27 Bola Ahmed Lagos</p>
+        <b><h5>Our Address</h5></b>
+        <p style="font-size: 15px;">27 Bola Ahmed Lagos</p>
       </div>
       </div>
 
@@ -368,9 +385,9 @@
         <div class="icon">
           <img src="images/icons8_phone_128px_2 1.png" alt="">
         </div>
-        <div>
-          <h4>Phone Number</h4>
-          <p>Manager <span style="color: #FFA700;">+2348065502317</span> </p>
+        <div style="margin-left: 5%;">
+         <b><h5>Phone Number</h5></b> 
+          <p style="font-size: 15px; display: flex;">Manager <span style="color: #FFA700;">+2348065502317</span> </p>
         </div>
         
       </div>
@@ -380,8 +397,8 @@
           <img src="images/icons8_clock_240px 1.png" alt="">
         </div>
         <div>
-          <h4>Working Hours</h4>
-          <p>mon-sat 8am-9pm</p>
+          <b><h5>Working Hours</h5></b>
+          <p style="font-size: 15px;">Mon-Sat 8am-9pm</p>
         </div>
        
       </div>
@@ -397,11 +414,12 @@
     <!--Footer -->
 
     <!-- Bootstrap JS Links  -->
-    <script src="./assets/jquery//jquery-3.5.1.min.js"></script>
+    <!-- <script src="./assets/jquery//jquery-3.5.1.min.js"></script>
     <script src="./assets/bootstrap/js/bootstrap.min.js"></script>
-    <script src="./assets/popper/popper.min.js"></script>
+    <script src="./assets/popper/popper.min.js"></script> -->
     <!-- Javascript Link -->
     <script src="./js/app.js"></script>
+  </div>
 </body>
 
 </html>
